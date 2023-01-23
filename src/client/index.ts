@@ -2,7 +2,7 @@ import { Client, GatewayIntentBits } from "discord.js"
 import { registerEvents } from "../utils"
 import events from "../events"
 import keys from "../keys"
-
+import { dbConnaction } from "../database"
 
 const client = new Client({
     intents: [
@@ -12,6 +12,7 @@ const client = new Client({
 })
 
 registerEvents(client, events)
+dbConnaction()
 
 client.login(keys.clientToken)
     .catch((err) => {
