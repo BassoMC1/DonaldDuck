@@ -24,7 +24,12 @@ export interface Command {
     exec: CommandExec
 }
 
-export interface CommandCategoty {
+export interface CommandCategotyExtra {
+    description?: string
+    emoji?: string
+}
+
+export interface CommandCategoty extends CommandCategotyExtra {
     name: string
     commands: Command[]
 }
