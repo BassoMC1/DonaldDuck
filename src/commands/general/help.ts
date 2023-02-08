@@ -6,5 +6,5 @@ const meta = new SlashCommandBuilder()
     .setName("help")
     .setDescription("Get a list of all commands for the bot")
 export default command(meta, ({ interaction  }) =>{
-    return interaction.reply(getCategotyRoot(true))
+    return interaction.reply(getCategotyRoot(false))
 })

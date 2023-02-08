@@ -16,6 +16,6 @@ dbConnaction()
 
 client.login(keys.clientToken)
     .catch((err) => {
-        console.error("[Login Error]", err)
+        console.error("[Login Error] -", err)
         process.exit(1)
     })

@@ -1,6 +1,6 @@
 import { category } from "../../utils"
-import WelcomeChannel from "./WelcomeChannel"
+import welcomechannel from "./WelcomeChannel"
 
-export default category("General", [
-    WelcomeChannel,
+export default category("Welcome", [
+    welcomechannel,
 ])
