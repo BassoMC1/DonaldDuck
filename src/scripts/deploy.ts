@@ -14,7 +14,7 @@ const body = commands.map(({ commands }) =>
 const rest = new REST({ version: "10" }).setToken(keys.clientToken)
 
 
-async function main() {
+export async function main() {
     const currentUser = await rest.get(Routes.user()) as APIUser
 
     const endpoint = process.env.NODE_ENV ===  "production" 
