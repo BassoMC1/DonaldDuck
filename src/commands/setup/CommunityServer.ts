@@ -5,6 +5,7 @@ import { command } from "../../utils"
 const meta = new SlashCommandBuilder()
     .setName("communityserversetup")
     .setDescription("Echo a message back")
+    
 export default command(meta, ({ interaction  }) =>{
     const TicketButton = new ButtonBuilder()
         .setCustomId("TicketButton")
