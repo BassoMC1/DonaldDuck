@@ -1,3 +1,13 @@
+// **********************************************
+// *
+// * This code was writen by BassoMC#4832 - (317730229760163855)
+// * Last Uptate: 08.04.2023 
+// * Note:
+// * TODO: 
+// * Problems: 
+// * 
+// **********************************************
+
 import { SelectMenuInteraction } from "discord.js"
 import { getCategotyPage, getCategotyRoot, NameSpaces } from "../../pages/help"
 import { createId, EditReply, event, readId, Reply} from "../../utils"
