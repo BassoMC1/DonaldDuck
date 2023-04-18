@@ -5,7 +5,7 @@ import { command } from "../../utils"
 const meta = new SlashCommandBuilder()
     .setName("communityserversetup")
     .setDescription("Echo a message back")
-    
+
 export default command(meta, ({ interaction  }) =>{
     const TicketButton = new ButtonBuilder()
         .setCustomId("TicketButton")
@@ -34,8 +34,6 @@ export default command(meta, ({ interaction  }) =>{
         const setupEmbed = new EmbedBuilder()
         .setTitle(`Server Setup Community server!`)
         .setDescription(`See what channels that is going to to make`)
-
-
     interaction.reply({content: "I am making you a community server now!", embeds: [setupEmbed], components: [component], })
 
     // interaction.guild!.channels.create({
