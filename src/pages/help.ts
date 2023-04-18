@@ -1,3 +1,13 @@
+// **********************************************
+// *
+// * This code was writen by BassoMC#4832 - (317730229760163855)
+// * Last Uptate: 08.04.2023 
+// * Note:
+// * TODO: 
+// * Problems: 
+// * 
+// **********************************************
+
 import {InteractionReplyOptions,  SelectMenuOptionBuilder, EmbedBuilder, StringSelectMenuBuilder, ActionRowBuilder, APIEmbedField, ButtonBuilder, ButtonStyle} from "discord.js"
 import CategoryRoot from "../commands"
 import { chunk, createId, readId } from "../utils"
